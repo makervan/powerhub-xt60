@@ -1,0 +1,187 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Label 5050 4950 0    60   ~ 0
+GND
+Text Label 4700 4950 0    60   ~ 0
+VCC
+Connection ~ 4700 4800
+Wire Wire Line
+	4700 4800 5500 4800
+Connection ~ 4700 4200
+Wire Wire Line
+	4700 4200 5500 4200
+Connection ~ 4700 3600
+Wire Wire Line
+	4700 3600 5500 3600
+Connection ~ 4700 3000
+Wire Wire Line
+	4700 3000 5500 3000
+Connection ~ 4700 2400
+Wire Wire Line
+	5500 2400 4700 2400
+Wire Wire Line
+	4700 1800 4700 2400
+Wire Wire Line
+	5500 1800 4700 1800
+Connection ~ 5050 4600
+Wire Wire Line
+	5050 4600 5500 4600
+Connection ~ 5050 4000
+Connection ~ 5050 3400
+Wire Wire Line
+	5050 3400 5500 3400
+Connection ~ 5050 2800
+Wire Wire Line
+	5050 2800 5500 2800
+Connection ~ 5050 2200
+Wire Wire Line
+	5500 2200 5050 2200
+Wire Wire Line
+	5050 1600 5050 2200
+Wire Wire Line
+	5500 1600 5050 1600
+Wire Wire Line
+	5500 4000 5050 4000
+$Comp
+L xt60:XT60 J1
+U 1 1 59B71E9F
+P 5800 1700
+F 0 "J1" H 5800 1950 60  0000 C CNN
+F 1 "XT60" H 5800 1500 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 1700 60  0001 C CNN
+F 3 "" H 5800 1700 60  0001 C CNN
+	1    5800 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L xt60:XT60 J2
+U 1 1 59B71F8A
+P 5800 2300
+F 0 "J2" H 5800 2550 60  0000 C CNN
+F 1 "XT60" H 5800 2100 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 2300 60  0001 C CNN
+F 3 "" H 5800 2300 60  0001 C CNN
+	1    5800 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L xt60:XT60 J3
+U 1 1 59B71FDB
+P 5800 2900
+F 0 "J3" H 5800 3150 60  0000 C CNN
+F 1 "XT60" H 5800 2700 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 2900 60  0001 C CNN
+F 3 "" H 5800 2900 60  0001 C CNN
+	1    5800 2900
+	1    0    0    -1  
+$EndComp
+$Comp
+L xt60:XT60 J4
+U 1 1 59B72068
+P 5800 3500
+F 0 "J4" H 5800 3750 60  0000 C CNN
+F 1 "XT60" H 5800 3300 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 3500 60  0001 C CNN
+F 3 "" H 5800 3500 60  0001 C CNN
+	1    5800 3500
+	1    0    0    -1  
+$EndComp
+$Comp
+L xt60:XT60 J5
+U 1 1 59B720EB
+P 5800 4100
+F 0 "J5" H 5800 4350 60  0000 C CNN
+F 1 "XT60" H 5800 3900 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 4100 60  0001 C CNN
+F 3 "" H 5800 4100 60  0001 C CNN
+	1    5800 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L xt60:XT60 J6
+U 1 1 59B72162
+P 5800 4700
+F 0 "J6" H 5800 4950 60  0000 C CNN
+F 1 "XT60" H 5800 4500 60  0000 C CNN
+F 2 "xt60board:XT60" H 5800 4700 60  0001 C CNN
+F 3 "" H 5800 4700 60  0001 C CNN
+	1    5800 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 4200 4700 4800
+Wire Wire Line
+	4700 3600 4700 4200
+Wire Wire Line
+	4700 3000 4700 3600
+Wire Wire Line
+	4700 2400 4700 3000
+Wire Wire Line
+	5050 4000 5050 4600
+Wire Wire Line
+	5050 3400 5050 4000
+Wire Wire Line
+	5050 2800 5050 3400
+Wire Wire Line
+	5050 2200 5050 2800
+$Comp
+L Connector:Screw_Terminal_01x02 J7
+U 1 1 60347E9C
+P 5850 5200
+F 0 "J7" H 5930 5192 50  0000 L CNN
+F 1 "Screw_Terminal_01x02" H 5930 5101 50  0000 L CNN
+F 2 "TerminalBlock_RND:TerminalBlock_RND_205-00232_1x02_P5.08mm_Horizontal" H 5850 5200 50  0001 C CNN
+F 3 "~" H 5850 5200 50  0001 C CNN
+	1    5850 5200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5200 5650 5200
+Wire Wire Line
+	5050 4600 5050 5200
+Wire Wire Line
+	5650 5300 4700 5300
+Wire Wire Line
+	4700 4800 4700 5300
+$Comp
+L Device:LED D1
+U 1 1 6034DF0C
+P 4700 5750
+F 0 "D1" V 4739 5632 50  0000 R CNN
+F 1 "LED" V 4648 5632 50  0000 R CNN
+F 2 "LED_THT:LED_D3.0mm" H 4700 5750 50  0001 C CNN
+F 3 "~" H 4700 5750 50  0001 C CNN
+	1    4700 5750
+	0    -1   -1   0   
+$EndComp
+Connection ~ 4700 5300
+$Comp
+L Device:R R1
+U 1 1 6034EFDA
+P 4700 5450
+F 0 "R1" H 4770 5496 50  0000 L CNN
+F 1 "R" H 4770 5405 50  0000 L CNN
+F 2 "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 4630 5450 50  0001 C CNN
+F 3 "~" H 4700 5450 50  0001 C CNN
+	1    4700 5450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5050 5200 5050 5900
+Wire Wire Line
+	5050 5900 4700 5900
+Connection ~ 5050 5200
+$EndSCHEMATC

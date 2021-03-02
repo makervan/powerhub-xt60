@@ -1,25 +1,11 @@
-XT60 Board
-----------
+# Powerhub XT60
 
-This is a XT60 Board with 12 connectors designed using KiCad.
+<img src="img/pcb-render.png" height="300">
 
-The Gerber folder contains the files to send to the PCB Manufacturer.
+A distribution board for up to 6 XT60 connectors (male or female), with optional power LED as well as screw terminals.
 
-
-<div style="text-align:center;">
-  <img
-    style="display: inline-block; margin:5px 20px; padding:5px;"
-    src="/Render/xt60_top_v2.png" alt="top render" width="300"
-  >
-  <img
-  style="display: inline-block; margin:5px 20px; padding:5px;"
-  src="/Render/xt60_bottom_v2.png" alt="bottom render" width="300"
-  >
-</div>
-
-License
--------
-
+## License
 This board is released under the MIT License.
 
-Credit for the XT60.kicad_mod goes to https://pappkopp.com/?p=222
+* Based on the [XT60 Board](https://github.com/jesseaster/xt60board)
+* Credit for the XT60.kicad_mod goes to https://pappkopp.com/?p=222
